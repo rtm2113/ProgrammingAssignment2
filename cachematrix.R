@@ -1,5 +1,8 @@
 ## Functions below save processing time by cacheing the inverse of a matrix
-## for future calculations. 
+## for future calculations. The first function creates a special matrix that
+## can cache its inverse. The second returns the inverse of a specified matrix
+## either by recalling a previously cached version (if the matrix remains
+## unchanged), or by calculating (and caching) the inverse.
 
 ## This function creates a special matrix that can cache its inverse.
 
